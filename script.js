@@ -8,7 +8,7 @@ class Car{
 		return "Scorpio", 2001;
 	}
 }
-class SportsCar{
+class SportsCar extends Car{
 	constructor(make,model,topSpeed){
 		this.make = make;
 		this.model = model;
