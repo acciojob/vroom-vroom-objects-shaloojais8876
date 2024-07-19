@@ -15,6 +15,7 @@ class SportsCar{
 		this.topSpeed = topSpeed;
 	}
 	getTopSpeed(){
+		this.getMakeModel()
 		return "bmw", 2000,40;
 	}
 }
