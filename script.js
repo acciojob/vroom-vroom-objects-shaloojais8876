@@ -6,7 +6,7 @@ class Car{
 		this.model = model;
 	}
 	getMakeModel(){
-		return "Scorpio", 2001;
+		return this.make + " " + this.model;
 	}
 }
 class SportsCar extends Car{
@@ -18,12 +18,11 @@ class SportsCar extends Car{
 	}
 	getTopSpeed(){
 		this.getMakeModel()
-		return "bmw", 2000,40;
+		return this.topSpeed;
 	}
 }
 const car = new SportsCar("Ferrari", "Testarossa", 200);
 console.log(car.getMakeModel()); // Output: Ferrari Testarossa
-console.log(car.getTopSpeed()); // Output: 200
-// Do not change the code below
+console.log(car.getTopSpeed());
 window.Car = Car;
 window.SportsCar = SportsCar;
